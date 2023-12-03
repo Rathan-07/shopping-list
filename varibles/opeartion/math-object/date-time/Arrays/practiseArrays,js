@@ -1,0 +1,15 @@
+let x;
+const arr = [1,2,3,4,5];
+
+// x =arr.unshift(0);
+// x = arr.reverse();
+// x = arr.unshift(6);
+
+// arr.reverse();
+// arr.push(0);
+// arr.unshift(6);
+
+arr.push(6);
+arr.reverse();
+arr.push(0);
+console.log(arr);
